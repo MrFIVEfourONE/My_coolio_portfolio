@@ -8,15 +8,6 @@ background-image: url(./images/backgroundweek2.jpg);
     -webkit-text-stroke: 1px #30967c;
 }
 
-/* .container-sm {
-    justify-content: right;
-    background-color: darkslategray;   
-} */
-
-#text {
-    font-size: 18px;
-}
-
 .col-8 {
     justify-content: right;
     background-color: darkslategray;
