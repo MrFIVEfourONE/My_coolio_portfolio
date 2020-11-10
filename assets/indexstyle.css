@@ -8,9 +8,9 @@ background-image: url(./images/backgroundweek2.jpg);
     -webkit-text-stroke: 1px #6a706d;
 }
 
-.navbar-toggler{
+/* .navbar-toggler{
     color: darkgrey;
-}
+} */
 
 .navbar-brand{
     color: rgba(241, 226, 226, 0);
@@ -18,13 +18,13 @@ background-image: url(./images/backgroundweek2.jpg);
     -webkit-text-stroke: 1px #30967c;
 }
 
-.row{
+.container{
+    display: flex;
+    justify-content: start;
+    background-color: darkslategray;
 
 }
 
-.col-8{
-    background-color: darkslategrey;
-    flex-wrap: wrap;
-
+.row{
 
 }
