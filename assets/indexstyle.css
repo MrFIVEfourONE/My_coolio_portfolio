@@ -21,7 +21,11 @@ background-image: url(./images/backgroundweek2.jpg);
 .container{
     display: flex;
     justify-content: start;
+    flex-direction: column;
     background-color: darkslategray;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    
 
 }
 
@@ -31,4 +35,6 @@ background-image: url(./images/backgroundweek2.jpg);
 
 #aboutme{
     font-size: 30px;
-}
+    display: flex;
+    flex-wrap: wrap;
+
