@@ -8,8 +8,23 @@ background-image: url(./images/backgroundweek2.jpg);
     -webkit-text-stroke: 1px #6a706d;
 }
 
+.navbar-toggler{
+    color: darkgrey;
+}
+
 .navbar-brand{
     color: rgba(241, 226, 226, 0);
     font-size: 20px;
     -webkit-text-stroke: 1px #30967c;
+}
+
+.row{
+
+}
+
+.col-8{
+    background-color: darkslategrey;
+    flex-wrap: wrap;
+
+
 }
