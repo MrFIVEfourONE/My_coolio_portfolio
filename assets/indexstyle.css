@@ -51,4 +51,47 @@ img {
     box-shadow: 0 3px 4px black;
 }
 
+/* this is the most important part of my whole project here because this is all me no bootstrap here just me, and flexbox */
 
+.artGallery {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 60%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.artCard {
+    display: flex;
+    flex-flow: column wrap;
+    margin: .4rem;
+    padding: .5rem;
+    background-color: darkslategray;
+    box-shadow: 0 3px 4p black;
+    flex-grow: 2;
+}
+
+.artCard h5 {
+    margin: .2rem 0;
+    text-align: center;
+}
+
+.artCard > img{
+    align-self: center;
+}
+
+.rastaR {
+    border-top: 5px dashed red;
+    box-shadow: 3px 3px 3px black;
+
+}
+
+.rastaG {
+    border-top: 5px dashed green;
+    box-shadow: 3px 3px 3px black;
+}
+
+.rastaY {
+    border-top: 5px dashed yellow;
+    box-shadow: 3px 3px 4px black;
+}    
