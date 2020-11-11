@@ -46,5 +46,6 @@ img {
     background:dimgray;
     border: 1px solid dimgray;
     margin: 0 10px 0 0;
+    box-shadow: 0 3px 4px black;
 }
 
