@@ -1,14 +1,20 @@
+/* tried my damnest to make the background stop after the sticky footer but im convinced there is no such funtion at least in css, in anyrate found out some cool stuff with backgrounds  */
+
 body {
 background-image: url(./images/backgroundweek2.jpg);
 background-attachment: fixed;
 background-size: contain;
 }
 
+/* had to be special and do somethig differnt with my name */
+
 .navbar-brand {
     color: rgba(241, 226, 226, 0);
     font-size: 20px;
     -webkit-text-stroke: 1px #30967c;
 }
+
+/* added a link from google to use this cool font */
 
 .col-8 {
     background-color: darkslategray;
@@ -17,12 +23,16 @@ background-size: contain;
     
 }
 
+/* added this second class to the third row to make it stand out as a different subject */
+
 .p2 {
     font-size: 25px;
     color: rgb(131, 139, 141);
     text-justify: center;
 
 }
+
+/* got the image to hold its own agianst oncoming text when scaling down lol */
 
 img {
     height: 200px;
