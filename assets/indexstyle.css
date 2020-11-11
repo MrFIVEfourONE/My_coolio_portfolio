@@ -1,5 +1,7 @@
 body {
 background-image: url(./images/backgroundweek2.jpg);
+background-attachment: fixed;
+background-size: contain;
 }
 
 .navbar-brand {
@@ -12,6 +14,14 @@ background-image: url(./images/backgroundweek2.jpg);
     background-color: darkslategray;
     font-family: 'Goldman';
     font-size: 20px;
+    
+}
+
+.p2 {
+    font-size: 25px;
+    color: rgb(131, 139, 141);
+    text-justify: center;
+
 }
 
 img {
@@ -21,3 +31,4 @@ img {
     border: 1px solid dimgray;
     margin: 0 10px 0 0;
 }
+
