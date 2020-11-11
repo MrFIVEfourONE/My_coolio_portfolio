@@ -23,6 +23,12 @@ background-size: contain;
     
 }
 
+#selfCentered {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(131, 139, 141);
+}
+
 /* added this second class to the third row to make it stand out as a different subject */
 
 .p2 {
