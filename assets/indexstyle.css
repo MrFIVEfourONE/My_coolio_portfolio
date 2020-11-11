@@ -23,7 +23,9 @@ background-size: contain;
     
 }
 
-#selfCentered {
+/* have to admit im using the same style sheet for index and contact and thats where this .selfCentered (lol) came to be. */
+
+.selfCentered {
     text-align: center;
     font-size: 50px;
     color: rgb(131, 139, 141);
@@ -48,4 +50,5 @@ img {
     margin: 0 10px 0 0;
     box-shadow: 0 3px 4px black;
 }
+
 
